@@ -1,0 +1,49 @@
+{
+  "name": "runsome",
+  "version": "1.0.0",
+  "description": "run cli and get output",
+  "main": "lib/runsome.js",
+  "scripts": {
+    "test": "madrun test",
+    "coverage": "madrun coverage",
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint",
+    "watcher": "madrun watcher",
+    "watch:test": "madrun watch:test",
+    "watch:lint": "madrun watch:lint",
+    "watch:tape": "madrun watch:tape",
+    "watch:coverage:base": "madrun watch:coverage:base",
+    "watch:coverage:tape": "madrun watch:coverage:tape",
+    "watch:coverage": "madrun watch:coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/runsome.git"
+  },
+  "keywords": [
+    "runsome",
+    "run",
+    "execute",
+    "cli"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderaiser/runsome/issues"
+  },
+  "homepage": "https://github.com/coderaiser/runsome",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-putout": "^3.0.0",
+    "madrun": "^5.4.0",
+    "nodemon": "^2.0.2",
+    "nyc": "^15.0.0",
+    "putout": "^7.3.3",
+    "supertape": "^1.1.0"
+  },
+  "dependencies": {
+    "currify": "^4.0.0",
+    "try-catch": "^2.0.1"
+  }
+}

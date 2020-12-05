@@ -1,0 +1,12 @@
+2020.12.05, v1.0.1
+
+feature:
+- (runsome) update dependencies
+- (package) putout v11.13.0
+- (package) madrun v8.0.0
+- (package) eslint-plugin-putout v6.8.1
+- (package) eslint v7.15.0
+- (package) supertape v3.3.1
+- (package) try-catch v3.0.0
+- (runsome) add
+

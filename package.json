@@ -44,6 +44,6 @@
   },
   "dependencies": {
     "currify": "^4.0.0",
-    "try-catch": "^2.0.1"
+    "try-catch": "^3.0.0"
   }
 }

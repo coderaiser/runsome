@@ -45,8 +45,6 @@ jobs:
         continue-on-error: true
         with:
           message: "chore: ${{ env.NAME }}: actions: lint ☘️"
-      - name: Build
-        run: redrun build
       - name: Test
         run: redrun test
       - name: Coverage

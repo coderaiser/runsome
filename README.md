@@ -1,5 +1,12 @@
 # Runsome [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
+[NPMIMGURL]: https://img.shields.io/npm/v/runsome.svg?style=flat
+[BuildStatusURL]: https://github.com/coderaiser/runsome/actions?query=workflow%3A%22Node+CI%22 "Build Status"
+[BuildStatusIMGURL]: https://github.com/coderaiser/runsome/workflows/Node%20CI/badge.svg
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]: https://npmjs.org/package/runsome "npm"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
+
 Run some `cli` and get output. Good for testing.
 
 ## Install
@@ -26,10 +33,3 @@ run('-v');
 ## License
 
 MIT
-
-[NPMIMGURL]: https://img.shields.io/npm/v/runsome.svg?style=flat
-[BuildStatusIMGURL]: https://img.shields.io/travis/coderaiser/runsome/master.svg?style=flat
-[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]: https://npmjs.org/package/runsome "npm"
-[BuildStatusURL]: https://travis-ci.org/coderaiser/runsome "Build Status"
-[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"

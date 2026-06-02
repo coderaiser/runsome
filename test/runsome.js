@@ -1,6 +1,6 @@
 import process from 'node:process';
 import {test} from 'supertape';
-import runsome from '../lib/runsome.js';
+import {runsome} from '../lib/runsome.js';
 
 test('runsome: two args', (t) => {
     const result = runsome('node', '-v');

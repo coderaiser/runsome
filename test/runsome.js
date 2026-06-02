@@ -1,6 +1,7 @@
 'use strict';
 
-const test = require('supertape');
+const process = require('node:process');
+const {test} = require('supertape');
 const runsome = require('..');
 
 test('runsome', (t) => {
@@ -18,4 +19,3 @@ test('runsome: stderr', (t) => {
     t.equal(result, expected);
     t.end();
 });
-

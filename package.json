@@ -1,6 +1,7 @@
 {
   "name": "runsome",
   "version": "1.0.1",
+  "type": "commonjs",
   "description": "run cli and get output",
   "main": "lib/runsome.js",
   "scripts": {
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/runsome.git"
+    "url": "git+https://github.com/coderaiser/runsome.git"
   },
   "keywords": [
     "runsome",

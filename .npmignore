@@ -1,5 +1,9 @@
-.*
-test
-
 *.swp
+*.log
+*.config.*
+*.lock
 
+.*
+
+test
+coverage

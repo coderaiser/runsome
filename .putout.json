@@ -1,6 +1,6 @@
 {
     "rules": {
-        "remove-unused-variables": ["on", {
+        "variables/remove-unused": ["on", {
             "exclude": [
                 "const f = (fn) => []"
             ]

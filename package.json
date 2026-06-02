@@ -11,11 +11,7 @@
     "fix:lint": "madrun fix:lint",
     "watcher": "madrun watcher",
     "watch:test": "madrun watch:test",
-    "watch:lint": "madrun watch:lint",
-    "watch:tape": "madrun watch:tape",
-    "watch:coverage:base": "madrun watch:coverage:base",
-    "watch:coverage:tape": "madrun watch:coverage:tape",
-    "watch:coverage": "madrun watch:coverage"
+    "watch:lint": "madrun watch:lint"
   },
   "repository": {
     "type": "git",

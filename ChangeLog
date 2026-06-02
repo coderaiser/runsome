@@ -1,3 +1,17 @@
+2026.06.02, v2.0.0
+
+feature:
+- 6c03b3f runsome: migrate to ESM
+- 9950bb6 runsome: superc8 v12.7.0
+- 8fd85b9 runsome: try-catch v4.0.9
+- 3d42814 runsome: supertape v13.2.0
+- a22aa3e runsome: putout v42.5.1
+- 4686a08 runsome: nyc v18.0.0
+- 1df240e runsome: nodemon v3.1.14
+- cc16418 runsome: madrun v13.0.2
+- 649dd60 runsome: eslint-plugin-putout v31.1.3
+- 7f12546 runsome: eslint v10.4.1
+
 2020.12.05, v1.0.1
 
 feature:

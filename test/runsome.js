@@ -1,10 +1,8 @@
-'use strict';
+import process from 'node:process';
+import {test} from 'supertape';
+import runsome from '../lib/runsome.js';
 
-const process = require('node:process');
-const {test} = require('supertape');
-const runsome = require('..');
-
-test('runsome', (t) => {
+test('runsome: two args', (t) => {
     const result = runsome('node', '-v');
     const {version} = process;
     

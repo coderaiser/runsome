@@ -1,7 +1,7 @@
 {
   "name": "runsome",
   "version": "1.0.1",
-  "type": "commonjs",
+  "type": "module",
   "description": "run cli and get output",
   "main": "lib/runsome.js",
   "scripts": {

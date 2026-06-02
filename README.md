@@ -11,7 +11,7 @@ npm i runsome
 ## How to use?
 
 ```js
-const runsome = require('runsome');
+import {runsome} from 'runsome';
 
 runsome('node', '-v');
 // returns
